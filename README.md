@@ -11,3 +11,4 @@
 - Backend: SpringMVC
 - Database: HSQLDB
 - Unit Tests: jUnit
+- Build: Maven
