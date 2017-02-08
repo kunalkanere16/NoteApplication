@@ -11,5 +11,9 @@ public interface Service {
 	
 	public String addNewNote(String title, String content);
 	
+	public String updateNote(int id, String title, String content);
+	
+	public String deleteNote(int id);
+	
 	public Note getNoteById(int id);
 }

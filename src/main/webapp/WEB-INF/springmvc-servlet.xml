@@ -92,11 +92,5 @@
 	<!-- <bean id="exceptionResolver" class="exception.MappingExceptionResolver">
 	</bean> -->
 
-	<!--import other business parts-->
-	<!-- <import resource="classpath*:spring-xml/doctor-config.xml" ></import>
-	<import resource="classpath*:spring-xml/pharmacy-config.xml" ></import>
-	<import resource="classpath*:spring-xml/system-config.xml" ></import>
-	<import resource="classpath*:spring-xml/admin-config.xml" ></import>
-	<import resource="classpath*:spring-xml/demo-config.xml" ></import>
-	<import resource="classpath*:spring-xml/patient-config.xml" ></import> -->
+	
 </beans>

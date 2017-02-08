@@ -40,7 +40,28 @@ function ajaxDatatable() {
     });
 }
 
-function download(){
-	var status=$("#status").val();
-	window.location.href = "downloadDoctorReport.ajax?status="+status;
+function deleteNote(id){
+	var url = "deleteNote.ajax";
+	var msg = "id="+id;
+	//$("#loading").css("display","block");
+	$.ajax({
+		url: url,
+		type:'post',
+		data:msg,
+		dataType:'text',
+        success: function(resp){   
+        	resp = resp.replace(/^\s+|\s+$/g,"");
+        //	alert(resp);
+        	if(resp=="success"){
+        		//$("#loading").css("display","none");
+        		//alert("Action performed successfully");
+        		$("#success").css("display","block");
+        		ajaxDatatable();
+        	}else{
+        	//	$("#loading").css("display","none");
+        		//alert("Could not complete the request");
+        		$("#fail").css("display","block");
+        	}
+        }
+	});
 }
