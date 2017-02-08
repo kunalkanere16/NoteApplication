@@ -1,9 +1,9 @@
 # NoteApplication
 
 ##Features
-1. Create Notes
-2. View and Edit Notes
-3. View all notes with search, sort and pagination using Datatable
+- Create Notes
+- View and Edit Notes
+- View all notes with search, sort and pagination using Datatable
 
 ##Technology
 - Front End: Bootstrap
