@@ -12,3 +12,9 @@
 - Database: HSQLDB
 - Unit Tests: jUnit
 - Build: Maven
+
+##Future Improvements
+- Better user notifications
+- Improve notes editing
+- Add notes feature like checklist
+- Add login and security
